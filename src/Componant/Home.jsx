@@ -77,8 +77,8 @@ const Home = () => {
                         apiData.map((ele) => (
                             <div key={ele.id}>
                                 <Link to={`/shop/singleproduct/${ele.id}`}>
-                                    <div className="card bg-white shadow-md rounded-md overflow-hidden">
-                                        <img src={ele.image} alt="watch" className="w-full h-64 object-cover" />
+                                    <div className="card bg-white shadow-md rounded-md overflow-hidden p-3">
+                                        <img src={ele.image} alt="watch" className="w-full h-64 object-contain" />
                                         <div className="p-4">
                                             <p className="text-lg font-semibold">{Shortened(ele.title, 40)}</p>
                                             <p className="text-gray-600">{ele.category}</p>
