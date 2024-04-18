@@ -70,7 +70,7 @@ const Shop = () => {
                         ))
                     ) : (
                         apiData.map((ele) => (
-                            <div key={ele.id} className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg">
+                            <div key={ele.id} className="max-w-md mx-auto bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg p-3">
                                 <Link to={`/shop/singleproduct/${ele.id}`}>
                                     <img src={ele.image} alt="watch" className="w-full h-64 object-contain" />
                                 </Link>
