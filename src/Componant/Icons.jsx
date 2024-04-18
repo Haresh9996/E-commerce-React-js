@@ -2,7 +2,7 @@ import React from 'react';
 
 const Icons = ({ imgData }) => {
     return (
-        <div className="container mx-auto min-w-[100vw] bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900 pb-10">
+        <div className="container mx-auto w-full bg-gradient-to-r from-gray-900 via-gray-500 to-gray-900 pb-16">
             <div class="flex items-center justify-center">
                 <div class="h-40 text-center w-3/4 flex items-center justify-center  text-4xl font-bold text-white">Our Best Services</div>
             </div>
